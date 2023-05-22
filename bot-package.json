@@ -1,0 +1,16 @@
+{
+  "name": "foodplus-ws-bot",
+  "version": "0.0.1",
+  "description": "Food Plus WhatsApp Bot Server",
+  "main": "",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "chokidar": "^3.5.3",
+    "qrcode": "^1.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.17.1"
+  },
+  "devDependencies": {},
+  "author": "Food Plus",
+  "license": "ISC"
+}

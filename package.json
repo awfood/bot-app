@@ -1,0 +1,21 @@
+{
+  "name": "foodplus-ws-bot",
+  "version": "0.0.1",
+  "description": "Food Plus WhatsApp Bot Server",
+  "main": "",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "fs-extra": "^10.1.0",
+    "qrcode": "^1.5.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Food Plus",
+  "license": "ISC"
+}
