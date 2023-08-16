@@ -127,7 +127,7 @@ module.exports = {
         });     
         
         client.on('message_create', async (msg) => {
-            if (msg.isGroup != true && msg.fromMe == true && msg.isStatus != true) {
+            if (msg.from.substr(-5) != '@g.us' && msg.fromMe == true && msg.isStatus != true) {
                 let from = msg.from.split('@')[0];
                 let wid = msg.from;
 
@@ -157,7 +157,7 @@ module.exports = {
         })
 
         client.on('message', async (msg) => {
-            if (msg.isGroup != true && msg.fromMe != true && msg.isStatus != true) {
+            if (msg.from.substr(-5) != '@g.us' && msg.fromMe != true && msg.isStatus != true) {
                 let from = msg.from.split('@')[0];
                 let wid = msg.from;
 
