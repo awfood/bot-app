@@ -112,7 +112,7 @@ module.exports = {
                 .then((res) => {})
                 .catch((err) => {});
 
-                axios.post(`https://wbot.xstecnologia.com.br/disconnect/${id}`)
+                axios.post(`${endpoint}/disconnect/${id}`)
                 .then((res) => {})
                 .catch((err) => {});
 
